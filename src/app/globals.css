@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+backMain {
+  background-image: url("/public/assests/dna.png");
+}
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.line {
+  position: absolute;
+  border-left: 1px solid blue; /* Adjust the line's style as needed */
+  height: 23%;
+  left: 8%;
+  top: 70%;
+}
+@media (min-width: 1600px) {
+  /* Styles for screens with a width of 1024px or larger */
+  .line {
+    position: absolute;
+    border-left: 1px solid blue; /* Adjust the line's style as needed */
+    height: 16%;
+    left: 5%;
+    top: 79%;
+  }
+}
+
+
+.indicator {
+  background-color: rgba(
+    92,
+    60,
+    218,
+    0.504
+  ); /* Removed single quotes around color name */
+  height: 2px;
+  width: 16px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.indicator-active {
+  /* Added a period (.) before class name */
+  background-color: rgb(101, 69, 215);
+}
+
+.indicator-inactive {
+  /* Added a period (.) before class name */
+  background-color: rgb(177, 179, 177); /* Removed the trailing comma */
+}
