@@ -25,7 +25,7 @@ const MainSection = () => {
               cutting-edge DNA sequencing solutions
             </p>
             <Link href="#slider">
-              <button className=" mt-16 mb-28 font-semibold bg-transparent text-blue-900 text-sm border-1 border-blue-900 px-4 py-2 rounded-full transform transition-transform hover:scale-105">
+              <button className=" mt-16 mb-32 font-semibold bg-transparent text-blue-900 text-sm border-1 border-blue-900 px-4 py-2 rounded-full transform transition-transform hover:scale-105">
                 Learn More &#x27A4;
               </button>
             </Link>
