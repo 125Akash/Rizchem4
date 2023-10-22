@@ -17,7 +17,7 @@ const MainSection = () => {
       >
         <div className="flex flex-col lg:flex-row justify-center items-center py-14 overflow-x-hidden">
           <div className="text-center lg:w-2/6 mt-14">
-            <h1 className="text-5xl mt-16 font-semibold text-blue-900 hover:text-blue-800 transition duration-300">
+            <h1 className="text-5xl mt-20 font-semibold text-blue-900 hover:text-blue-800 transition duration-300">
               Unlocking the Secrets of Life
             </h1>
             <p className="text-sm font-semibold mt-4 text-blue-900">
